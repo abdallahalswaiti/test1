@@ -78,7 +78,18 @@ logo_width = "300px"
 [taxonomies]
   series = 'series'
 
-
+[twitter]
+  card = "player"
+  title = "The Bit Title"
+  site = "@twittername"
+  description = "Special Description for the card max. 200 characters"
+  player = "images/slider/2"
+  player_width = 1280
+  player_height = 960
+  image = "images/slider/slider-3.jpg"
+  image_alt = "This is an amazing Thumbnail"
+  player_stream = "images/slider/2.mp4"
+  player_stream_content_type = "video/mp4"
 
 # Preloader
 [params.preloader]
