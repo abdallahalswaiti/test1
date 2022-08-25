@@ -81,12 +81,12 @@ logo_width = "300px"
   title = "The Bit Title"
   site = "@abdallalswaiti"
   description = "Special Description for the card max. 200 characters"
-  player = "twitter/container.html"
-  player_width = 480
-  player_height = 480
-  image = "twitter/example.png"
+  player = ""
+  player_width = 1920
+  player_height = 1080
+  image = "images/slider/slider-3.jpg"
   image_alt = "This is an amazing Thumbnail"
-  player_stream = "twitter/example.mp4"
+  player_stream = "images/slider/1.mp4"
   player_stream_content_type = "video/mp4"
 
 # Preloader
