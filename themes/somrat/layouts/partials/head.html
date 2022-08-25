@@ -1,7 +1,6 @@
 <head>
-  {{- partial "twitter-card" . -}}
 
-
+  {{ hugo.Generator }}
   <!-- plugins -->
   <link rel="preconnect" href="https://fonts.gstatic.com">
   {{ range site.Params.plugins.css }}
@@ -26,7 +25,7 @@
   <link rel="alternate" hreflang="{{ .Lang }}" href="{{ .Permalink }}">
   {{ end }}
   {{ end }}
-
+  {{ partial "twitter-card.html" . }}
 
 
   {{ template "_internal/google_analytics.html" . }}

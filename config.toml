@@ -75,17 +75,15 @@ logo_dark = "images/logo-dark.png"
 logo_width = "300px"
 # Meta data
 
-[taxonomies]
-  series = 'series'
 
-[twitter]
+[params.twitter]
   card = "player"
   title = "The Bit Title"
-  site = "@twittername"
+  site = "@abdallalswaiti"
   description = "Special Description for the card max. 200 characters"
   player = "images/slider/2"
-  player_width = 1280
-  player_height = 960
+  player_width = 480
+  player_height = 480
   image = "images/slider/slider-3.jpg"
   image_alt = "This is an amazing Thumbnail"
   player_stream = "images/slider/2.mp4"
